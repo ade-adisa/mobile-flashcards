@@ -44,7 +44,8 @@ class CreateDeckView extends Component {
       }))
 
       //Route to Home on submission of deck title
-      this.props.navigation.navigate('DecksListView')
+      // this.props.navigation.navigate('DecksListView') //Routes to Decks List
+      this.props.navigation.navigate('Dashboard', {entryId : key})
     
       //Save to 'DB'
       submitDeck({ key, entry})

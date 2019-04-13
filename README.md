@@ -42,3 +42,18 @@ To use the application, you are to:
     ├── TextButton.js # This text component view is used wherever text only buttons are required.
     └── QuestionInput.js # Also helps for code reuse, this is used wherever form fields are required.
 ```
+
+## Running the tests
+
+You may test the application on a live device (iOS or Android) using [Expo](http://expo.github.io "Expo"), or run on a iOS or Android simulator on your computer
+
+## Built with
+
+The application was built using
+
+* VS Code - Code Editor
+* React Native - Language
+
+## License
+
+This project is licensed under the MIT License
